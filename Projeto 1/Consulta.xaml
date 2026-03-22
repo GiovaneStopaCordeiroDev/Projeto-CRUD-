@@ -1,0 +1,41 @@
+﻿<Window x:Class="Projeto_1.Consulta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projeto_1"
+        mc:Ignorable="d"
+            xmlns:hc="https://handyorg.github.io/handycontrol"
+        Title="Consulta" Height="700" Width="1500">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="26,52,0,0" TextWrapping="Wrap" Text="Cadastro de Consultas" VerticalAlignment="Top" FontSize="36" FontFamily="Arial Black" Height="42" Width="462" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.075"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="15,135,0,0" TextWrapping="Wrap" Text="Paciente:" VerticalAlignment="Top" FontSize="18" Height="24" Width="70" />
+        <TextBlock HorizontalAlignment="Left" Margin="13,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="25" Width="159" ><Run Language="pt-br" Text="Data"/><Run Text=" "/><Run Language="pt-br" Text="da consulta"/><LineBreak/><Run Language="pt-br"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="259,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="24" Width="73" ><Run Language="pt-br" Text="Sintomas"/></TextBlock>
+        <hc:TextBox x:Name="txtSintomas" hc:InfoElement.Placeholder="Digite os Sintomas" HorizontalAlignment="Left" Margin="256,231,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="337" Height="36" FontSize="16"/>
+        <hc:ComboBox x:Name="cbPacienteConsulta" HorizontalAlignment="Left" Margin="15,159,0,0" VerticalAlignment="Top" Width="194" Height="28"/>
+        <TextBlock HorizontalAlignment="Left" Margin="264,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="24" Width="63" ><Run Language="pt-br" Text="Médico"/><Run Text=":"/></TextBlock>
+        <hc:ComboBox x:Name="cbMedicoConsulta" HorizontalAlignment="Left" Margin="264,159,0,0" VerticalAlignment="Top" Width="192" Height="28"/>
+        <TextBlock HorizontalAlignment="Left" Margin="166,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Height="24" Width="166" ><Run Language="pt-br" Text="Motivo da Consulta"/></TextBlock>
+        <hc:TextBox x:Name="txtMotivo" hc:InfoElement.Placeholder="" HorizontalAlignment="Left" Margin="42,320,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="414" Height="182" FontSize="16"/>
+        <Button x:Name="btnAdicionarConsultas" Content="Adicionar Consulta" Margin="183,530,0,0" VerticalAlignment="Top" Background="#FF3EB71D" Foreground="White" FontSize="18" Height="52" Width="186" HorizontalAlignment="Left" Click="btnAdicionarConsultas_Click"/>
+        <Button x:Name="btnRemoverConsultas" Content="Remover" HorizontalAlignment="Left" Margin="397,532,0,0" FontSize="18" Width="108" Height="50" VerticalAlignment="Top" Background="#FFF53434" Foreground="White" Click="btnRemoverConsultas_Click"/>
+        <Button x:Name="btnAlterarConsultas" Content="Alterar" HorizontalAlignment="Left" Margin="43,532,0,0" FontSize="18" Height="50" Width="114" VerticalAlignment="Top" Foreground="White" Background="#FFA22AF9" Click="btnAlterarConsultas_Click"/>
+        <hc:DatePicker x:Name="dpDataConsulta" HorizontalAlignment="Left" Margin="15,231,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.988,0.555" Width="208" Height="28"></hc:DatePicker>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="613,64,0,0" TextWrapping="Wrap" Text="Pesquisar Consulta:" VerticalAlignment="Top" FontSize="18" />
+        <hc:SearchBar x:Name="txtPesquisaConsulta" HorizontalAlignment="Left" Margin="613,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="27" TextChanged="txtPesquisaConsulta_TextChanged"/>
+        <DataGrid x:Name="dgConsultas" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="613,125,0,82" SelectionChanged="dgConsultas_SelectionChanged"/>
+
+    </Grid>
+</Window>

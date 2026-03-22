@@ -1,0 +1,50 @@
+﻿<Window x:Class="Projeto_1.CadastroPacientes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projeto_1"
+        mc:Ignorable="d"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        Title="Cadastro de Pacientes" Height="700" Width="1700">
+    <Grid>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="28,76,0,0" TextWrapping="Wrap" Text="Cadastro de Pacientes" VerticalAlignment="Top" FontSize="36" FontFamily="Arial Black"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="26,180,0,0" TextWrapping="Wrap" Text="Nome do Paciente:" VerticalAlignment="Top" FontSize="18" />
+        <hc:TextBox x:Name="txtNomePaciente" hc:InfoElement.Placeholder="Digite o nome" HorizontalAlignment="Left" Margin="26,204,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="26,268,0,0" TextWrapping="Wrap" Text="CPF do Paciente:" VerticalAlignment="Top" FontSize="18" />
+        <hc:TextBox x:Name="txtCPFPaciente" hc:InfoElement.Placeholder="Digite o CPF" HorizontalAlignment="Left" Margin="26,298,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16" TextChanged="txtCPFPaciente_TextChanged"/>
+
+        <Button x:Name="btnAdicionarPaciente" Content="Adicionar Paciente" Margin="194,462,0,0" VerticalAlignment="Top" Background="#FF3EB71D" Foreground="White" FontSize="18" Height="52" Width="186" HorizontalAlignment="Left" Click="btnAdicionarPaciente_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,358,0,0" TextWrapping="Wrap" Text="Data de Nascimento:" VerticalAlignment="Top" FontSize="18" />
+        <hc:DatePicker x:Name="dpDataNascimentoPaciente" hc:InfoElement.Placeholder="Digite a Data de Nascimento" HorizontalAlignment="Left" Margin="26,390,0,0" VerticalAlignment="Top" Width="268" Height="36" FontSize="16" />
+        <TextBlock HorizontalAlignment="Left" Margin="324,364,0,0" TextWrapping="Wrap" Text="Sexo:" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.576,0.607" />
+        <CheckBox x:Name="cbMasculino" Content="Masculino" HorizontalAlignment="Left" Margin="372,366,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.119,1.065" FontSize="18"/>
+        <CheckBox x:Name="cbFeminino" Content="Feminino" HorizontalAlignment="Left" Margin="372,390,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock HorizontalAlignment="Left" Margin="324,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" ><Run Language="pt-br" Text="Telefone do Paciente:"/></TextBlock>
+        <hc:TextBox x:Name="txtTelefonePaciente" hc:InfoElement.Placeholder="Digite o Telefone" HorizontalAlignment="Left" Margin="324,204,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16" TextChanged="txtTelefonePaciente_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="324,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" ><Run Language="pt-br" Text="Email do Paciente:"/></TextBlock>
+        <hc:TextBox x:Name="txtEmailPaciente" hc:InfoElement.Placeholder="Digite o Email" HorizontalAlignment="Left" Margin="324,298,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16"/>
+
+        <Button x:Name="btnRemoverPaciente" Content="Remover" HorizontalAlignment="Left" Margin="408,462,0,0" FontSize="18" Width="108" Height="50" VerticalAlignment="Top" Background="#FFF53434" Foreground="White" Click="btnRemoverPaciente_Click"/>
+        <Button x:Name="btnAlterarPaciente" Content="Alterar" HorizontalAlignment="Left" Margin="54,462,0,0" FontSize="18" Height="50" Width="114" VerticalAlignment="Top" Foreground="White" Background="#FFA22AF9" Click="btnAlterarPaciente_Click"/>
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="615,116,0,0" TextWrapping="Wrap" Text="Pesquisar Paciente:" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="-0.16,1.234" >
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <hc:SearchBar x:Name="txtPesquisarPaciente" HorizontalAlignment="Left" Margin="615,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="27" TextChanged="txtPesquisarPaciente_TextChanged"/>
+        <DataGrid x:Name="dgPacientes" Margin="615,180,0,96" SelectionChanged="dgPacientes_SelectionChanged"/>
+    </Grid>
+</Window>

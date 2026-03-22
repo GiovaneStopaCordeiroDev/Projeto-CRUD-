@@ -1,0 +1,53 @@
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Projeto 1.exe.config
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Projeto 1.exe
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Projeto 1.pdb
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\ControlzEx.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\HandyControl.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\MahApps.Metro.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\ControlzEx.pdb
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\ControlzEx.xml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\HandyControl.xml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\MahApps.Metro.pdb
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\MahApps.Metro.xml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\ProjetoCRUD.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\CadastroMedico.g.cs
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\CadastroPacientes.g.cs
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Consulta.g.cs
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\MainWindow.g.cs
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\App.g.cs
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Projeto 1_MarkupCompile.cache
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Projeto 1_MarkupCompile.lref
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\App.baml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\CadastroMedico.baml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\CadastroPacientes.baml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Consulta.baml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\MainWindow.baml
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Projeto 1.g.resources
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Projeto_1.Properties.Resources.resources
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\ProjetoCRUD.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\ProjetoCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\ProjetoC.BB7FB89A.Up2Date
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Projeto 1.exe
+C:\Users\Administrador\source\repos\Projeto 1\Projeto 1\obj\Debug\Projeto 1.pdb

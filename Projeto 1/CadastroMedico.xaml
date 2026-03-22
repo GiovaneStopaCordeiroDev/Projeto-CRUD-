@@ -1,0 +1,46 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projeto_1"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:hc="https://handyorg.github.io/handycontrol" x:Class="Projeto_1.CadastroMedico"
+        mc:Ignorable="d"
+        Title="CadastroMedico" Height="700" Width="1700">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="32,53,0,0" TextWrapping="Wrap" Text="Cadastro de Médicos" VerticalAlignment="Top" FontSize="36" FontFamily="Arial Black"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="32,145,0,0" TextWrapping="Wrap" Text="Nome:" VerticalAlignment="Top" FontSize="18" />
+        <hc:TextBox x:Name="txtNomeMedico" hc:InfoElement.Placeholder="Digite o nome" HorizontalAlignment="Left" Margin="32,169,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="34,239,0,0" TextWrapping="Wrap" Text="CPF:" VerticalAlignment="Top" FontSize="18" />
+        <hc:TextBox x:Name="txtCPFMedico" hc:InfoElement.Placeholder="Digite o CPF"  HorizontalAlignment="Left" Margin="32,269,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16" TextChanged="txtCPFMedico_TextChanged"/>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="309,171,0,0" TextWrapping="Wrap" Text="Sexo:" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="0.576,0.607" />
+        <CheckBox x:Name="cbMasculino" Content="Masculino" HorizontalAlignment="Left" Margin="357,173,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.119,1.065" FontSize="18"/>
+        <CheckBox x:Name="cbFeminino" Content="Feminino" HorizontalAlignment="Left" Margin="357,197,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+        <Button x:Name="btnRemoverMedico" Content="Remover"  FontSize="18" Width="108" Height="50" Background="#FFF53434" Foreground="White" HorizontalAlignment="Left" Margin="354,440,0,0" VerticalAlignment="Top" Click="btnRemoverMedico_Click"/>
+        <Button x:Name="btnAdicionarMedico" Content="Adicionar Médico" Background="#FF3EB71D" Foreground="White" FontSize="18" Height="52" Width="186" Click="BtnAdicionarMedico_Click" HorizontalAlignment="Left" Margin="154,439,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnAlterarMedico" Content="Alterar" HorizontalAlignment="Left"  FontSize="18" Height="50" Width="114" VerticalAlignment="Top" Foreground="White" Background="#FFA22AF9" Margin="24,439,0,0" Click="btnAlterarMedico_Click"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="309,239,0,0" TextWrapping="Wrap" Text="Telefone:" VerticalAlignment="Top" FontSize="18" />
+        <hc:TextBox x:Name="txtTelefoneMedico" hc:InfoElement.Placeholder="Digite o Telefone" HorizontalAlignment="Left" Margin="309,269,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="244" Height="36" FontSize="16" TextChanged="txtTelefoneMedico_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="32,0,0,0" TextWrapping="Wrap" Text="Especialidade:" VerticalAlignment="Center" FontSize="18" />
+        <TextBlock HorizontalAlignment="Left" Margin="202,327,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" ><Run Language="pt-br" Text="CRM:"/><LineBreak/><Run Language="pt-br"/></TextBlock>
+        <hc:TextBox x:Name="txtCRMMedico" hc:InfoElement.Placeholder="Digite a CRM" HorizontalAlignment="Left" Margin="202,357,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="268" Height="36" FontSize="16"/>
+        <hc:ComboBox x:Name="cbEspecialidadeMedico" HorizontalAlignment="Left" Margin="32,365,0,0" VerticalAlignment="Top" Width="148">
+        </hc:ComboBox>
+
+
+
+        <TextBlock HorizontalAlignment="Left" Margin="596,34,0,0" TextWrapping="Wrap" Text="Pesquisar Médico:" VerticalAlignment="Top" FontSize="18" />
+        <hc:SearchBar x:Name="txtPesquisarMedico" HorizontalAlignment="Left" Margin="596,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" TextChanged="txtPesquisarMedico_TextChanged"/>
+        <DataGrid x:Name="dgMedicos" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="572,96,2,30" Height="auto" Width="auto" RenderTransformOrigin="0.5,0.5" SelectionChanged="dgMedicos_SelectionChanged"/>
+
+
+
+
+    </Grid>
+</Window>
