@@ -159,5 +159,11 @@
   <ItemGroup>
     <Resource Include="Image2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ImagensReadMe\TelaAgendamentoConsultas.PNG" />
+    <Resource Include="ImagensReadMe\TelaCadastroMedicos.PNG" />
+    <Resource Include="ImagensReadMe\TelaCadastroPacientes.PNG" />
+    <Resource Include="ImagensReadMe\TelaInicialProjeto.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
