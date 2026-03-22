@@ -16,5 +16,5 @@
 Projeto criado com o intuito de desenvolver o back-end e aprender sobre a conexão de banco de dados ao C#, formatação de textos
 
 # Tela de Início
-![Tela Inicial](Projeto 1/ImagensReadMe/TelaInicialProjeto.PNG)
+![Tela Inicial](Sistema-Consultorio-CSharp/ImagensReadMe/TelaInicialProjeto.PNG)
 
